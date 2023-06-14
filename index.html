@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDo-лист</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>ToDo-лист</h1>
+  <label for="taskInput">Ввод задачи:</label>
+  <input type="text" id="taskInput" placeholder="Введите задачу">
+  <label for="prioritySelect">Приоритет:</label>
+  <select id="prioritySelect">
+    <option value="Низкий">Низкий</option>
+    <option value="Средний">Средний</option>
+    <option value="Высокий">Высокий</option>
+  </select>
+  <label for="dateTimeInput">Дата и время:</label>
+  <input type="datetime-local" id="dateTimeInput">
+  <button onclick="addTask()">Добавить</button>
+  <ul id="taskList"></ul>
+  <button onclick="clearTasks()">Очистить</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

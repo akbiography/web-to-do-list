@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"], select, input[type="datetime-local"] {
+  padding: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
+li span {
+  margin-right: 6px;
+}
+
+li span.completed {
+  text-decoration: line-through;
+}
+
+li input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#totalExpense {
+  font-weight: bold;
+  color: #007bff;
+}
+
+button:focus,
+input[type="text"]:focus,
+select:focus,
+input[type="datetime-local"]:focus {
+  outline: none;
+  box-shadow: 0 0 3px #007bff;
+}
